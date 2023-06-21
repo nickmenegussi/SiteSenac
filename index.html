@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="cabecalho" id="Home">
+        <nav class="navegacao-primaria" id="navbar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul id="lista-itens">
+                    <li class="nav-item">
+                        <a href="#Home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Sobre" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Citações" class="nav-link">Citações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Obras" class="nav-link">Obras</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()">
+                    <img class="icon" src="./assets/menu.svg" alt="">
+                </button>
+            </div>
+        </nav>
+        <nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item" id="lista-itens">
+                        <a href="#Home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item" id="lista-itens">
+                        <a href="#Sobre" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item" id="lista-itens">
+                        <a href="#Citações" class="nav-link">Citações</a>
+                    </li>
+                    <li class="nav-item" id="lista-itens">
+                        <a href="#Obras" class="nav-link">Obras</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="primeira-section" id="Sobre">
+            <div class="div-pai">
+                <div class="imagem">
+                    <img src="./assets/images.jpg" alt="algo">
+                </div>
+                <div class="conteudo">
+                    <h1>Sobre</h1>
+                    <p id="texto1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit sint, unde perferendis doloribus cupiditate repellendus nostrum totam ipsa neque modi sed commodi laborum dicta esse blanditiis, asperiores reprehenderit repellat ex.</p>
+                </div>
+            </div>
+        </section>
+        <section class="cards-citacoes" id="Citações">
+            <div class="citacoes">
+                <div class="card" id="felicidade">
+                    <div class="img-1">
+                        <p>AMOR</p>
+                    </div>
+
+                    <div class="content">
+                        <h1 class="titulo">Amorosa</h1>
+                        <p class="desc">"O mundo não é dos espertos. É das pessoas honestas e   verdadeiras. A esperteza
+                            um
+                            dia é descoberta e vira vergonha. A honestidade se transforma em exemplo para as gerações do
+                            futuro. Uma corrompe a vida, a outra enobrece a alma."</p>
+                    </div>
+
+                    <div class="arrow">
+                        <p>&#8593;</p>
+                    </div>
+                </div>
+                <div class="card" id="Recomeço">
+                    <div class="img-2">
+                        <p>RECOMEÇO</p>
+                    </div>
+                    <div class="content">
+                        <h1 class="titulo">Recomeço</h1>
+                        <p class="desc">"Cada dia que amanhece assemelha-se a uma página em branco, na qual gravamos os
+                            nossos pensamentos, ações e atitudes. Na essência, cada dia é a preparação de nosso próprio
+                            amanhã."</p>
+                    </div>
+
+                    <div class="arrow">
+                        <p>&#8593;</p>
+                    </div>
+                </div>
+                <div class="card" id="Escolhas">
+                    <div class="img-3">
+                        <p>ESCOLHAS</p>
+                    </div>
+                    <div class="content">
+                        <h1 class="titulo">Escolhas</h1>
+                        <p class="desc">"A felicidade não está em viver, mas em saber viver. Não vive mais o que vive,
+                            mas o
+                            que melhor vive, porque a vida não mede o tempo, mas o emprego que dela fazemos."</p>
+                    </div>
+
+                    <div class="arrow">
+                        <p>&#8593;</p>
+                    </div>
+                </div>
+                <div class="card" id="Ressistir">
+                    <div class="img-4">
+                        <p>RESSISTIR</p>
+                    </div>
+
+                    <div class="content">
+                        <h1 class="titulo">Ressistir</h1>
+                        <p class="desc"> Para os dias bons, gratidão.
+                            Para os dias difíceis, fé.
+                            Para os dias de saudade, tempo.
+                            Para todos os dias coragem.</p>
+                    </div>
+
+                    <div class="arrow">
+                        <p>&#8593;</p>
+                    </div>
+                </div>
+                <div class="card" id="Perdoar">
+                    <div class="img-5">
+                        <p>PERDOAR</p>
+                    </div>
+
+                    <div class="content">
+                        <h1 class="titulo">Perdoar</h1>
+                        <p class="desc">"O espírito que adquirir a virtude do perdão não achará dificuldade em mais
+                            nada.
+                            Haja o que houver, aconteça o que acontecer, ele saberá administrar sua vida…</p>
+                    </div>
+
+                    <div class="arrow">
+                        <p>&#8593;</p>
+                    </div>
+                </div>
+                <!-- <img id="espirito1" src="./assets/espirito.jpg" alt="foto-chico"> -->
+            </div>
+            <div class="infor">
+                <h1>Chico Xavier</h1>
+                <p>
+                    <i>Chico foi um renomado médium, filantropo e escritor brasileiro nascido em 2 de abril de 1910, em
+                        Pedro Leopoldo, Minas Gerais, Brasil. Ele ficou conhecido por sua mediunidade e por psicografar
+                        mais de 400 livros, transmitindo mensagens de espíritos sobre espiritualidade, moral e a vida
+                        após a morte.
+                        Além disso, Chico Xavier modelou atos de benevolência e desinteresse por bens materiais. Ao
+                        transferir todos os direitos autorais de suas obras literárias para instituições de caridade,
+                        Chico Xavier demonstrou seu cuidado com o bem-estar do próximo e seu compromisso em ajudar os
+                        mais vulneráveis.</i>
+                </p>
+            </div>
+        </section>
+
+        <section class="terceira-section" id="Obras">
+            <div class="div-pai">
+                <div class="imagem">
+                    <img src="./assets/images.jpg" alt="algo">
+                </div>
+                <div class="conteudo">
+                    <h1>Titulo</h1>
+                    <p>texto</p>
+                </div>
+            </div>
+            <div class="div-pai">
+                <div class="conteudo">
+                    <h1>Titulo</h1>
+                    <p>texto</p>
+                </div>
+                <div class="imagem">
+                    <img src="./assets/images.jpg" alt="algo">
+                </div>
+            </div>
+            <div class="div-pai">
+                <div class="imagem">
+                    <img src="./assets/images.jpg" alt="algo">
+                </div>
+                <div class="conteudo">
+                    <h1>Titulo</h1>
+                    <p>texto</p>
+                </div>
+            </div>
+            <div class="div-pai">
+                <div class="conteudo">
+                    <h1>Titulo</h1>
+                    <p>texto</p>
+                </div>
+                <div class="imagem">
+                    <img src="./assets/images.jpg" alt="algo">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copy">&copy; Chico Xavier 2023</p>
+    </footer>
+</body>
+</html>
