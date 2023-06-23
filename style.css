@@ -1,371 +1,373 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.cabecalho {
-  background-color: #2a252a;
-  box-shadow: 0px 3px 10px #464646;
-}
-
-#texto1 {
-  margin: 20px 15%;
-}
-
-.navegacao-primaria {
-  display: flex;
-  justify-content: space-between;
-  padding: 1.5rem 6rem;
-}
-
-a:hover{
-  color: cadetblue;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  color: white;
-}
-
-.nav-list {
-  display: flex;
-  align-items: center;
-}
-
-
-.nav-list ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-
-}
-
-ul {
-  display: flex;
-  gap:10px;
-}
-
-.nav-item {
-  margin: 0 15px;
-}
-
-.nav-link {
-  position: sticky;
-  top: 0;
-  text-decoration: none;
-  font-size: 1.15rem;
-  color: #fff;
-  font-weight: 400;
-}
-
-.mobile-menu-icon {
-  display: none;
-}
-
-.mobile-menu {
-  display: none;
-}
-
-ul > li {
-  list-style-type: none;
-  color: white;
-  font-size: 17px;
-}
-
-a {
-  color: white;
-}
-
-.imagem {
-  display: flex;
-  gap: 30px;
-}
-
-.primeira-section {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: row;
-  margin: 10%;
-}
-
-p {
-  font-size: 20px;
-}
-
-#espirito1 {
-  text-align: right;
-}
-
-.container-livros {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-}
-
-.cards-citacoes {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-
-}
-
-.citacoes{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  gap: 25px;
-}
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  background-image: linear-gradient(#333, #333);
-  overflow: hidden;
-  border-radius: 16px;
-  color: white;
-  max-width: 300px;
-  transition: all .5s;
-  cursor: pointer;
-}
-
-#felicidade:hover{
-  background-image: linear-gradient(#4B0082,#E6E6FA);
-}
-#Recomeço:hover{
-  background-image: linear-gradient(#FFC300, #808080);
-}
-#Escolhas:hover{
-  background-image: linear-gradient(#778899, #DCDCDC);
-}
-#Ressistir:hover{
-  background-image: linear-gradient(#708090, #708090);
-}
-#Perdoar:hover {
-  background-image: linear-gradient(#3CB371, #808080);
-}
-
-.img-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-image: url(./assets/amor-1024x597.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 360px;
-  height: 200px;
-
-  opacity: .8;
-  transition: all .5s;
-}
-
-.img-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-image: url(./assets/recomecos.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 360px;
-  height: 200px;
-
-  opacity: .8;
-  transition: all .5s;
-}
-
-.img-3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-image: url(./assets/download.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 360px;
-  height: 200px;
-
-  opacity: .8;
-  transition: all .5s;
-}
-
-.img-4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-image: url(./assets/ressitir.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 360px;
-  height: 200px;
-
-  opacity: .8;
-  transition: all .5s;
-}
-
-.img-5 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-image: url(./assets/perdoar-facebook.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 360px;
-  height: 200px;
-
-  opacity: .8;
-  transition: all .5s;
-}
-
-
-
-.card:hover .img{
-  opacity: 1;
-  width: 440px;
-}
-
-.img p {
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 100;
-  text-transform: uppercases;
-}
-
-.content {
-  padding:0 20px;
-  overflow: hidden;
-  height: 0;
-  transition: all .5s;
-  transform: translateY(30px);
-}
-
-.card:hover .content {
-  padding: 20px;
-  height: 150px;
-  transform: translateY(0);
-}
-
-.title {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.desc {
-  font-size: 14px;
-  font-weight: 100;
-  opacity: .7;
-}
-
-.arrow {
-  padding: 15px;
-  font-size: 28px;
-  transform: rotate(-180deg);
-}
-
-.card:hover .arrow{
-  transform: rotate(0);
-}
-
-.infor {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.terceira-section {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-}
-
-.div-pai {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
   
-}
-
-.conteudo {
-  display: flex;
-  flex-direction: column;
-
-  text-align: center;
-  align-items: center;
-}
-
-.card-obras{
-  margin-bottom: 40vh;
-}
-
-.copy {
-  background-color: #2a252a;
-  font-size: 20px;
-  text-align: center;
-  color: white;
-  margin-top: 20px;
-}
-#espirito1 {
-  width: 10vw;
-}
-
-@media screen and (max-width: 730px) {
+  .cabecalho {
+    background-color: #2a252a;
+    box-shadow: 0px 3px 10px #464646;
+  }
+  
+  #texto1 {
+    margin: 20px 15%;
+  }
+  
   .navegacao-primaria {
-    padding: 1.5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
   }
-
+  
+  a:hover{
+    color: cadetblue;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .nav-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  
+  }
+  
+  ul {
+    display: flex;
+    gap:10px;
+  }
+  
   .nav-item {
-    display: none;
-    /* display: none; quando estiver nessa resolucao nao ira aparecer os links de navegacao */
+    margin: 0 15px;
   }
-
+  
+  .nav-link {
+    position: sticky;
+    top: 0;
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+  }
+  
   .mobile-menu-icon {
-    display: block;
+    display: none;
   }
-
-  .mobile-menu-icon button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+  
+  .mobile-menu {
+    display: none;
   }
-
-  .mobile-menu ul {
+  
+  ul > li {
+    list-style-type: none;
+    color: white;
+    font-size: 17px;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  .imagem {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .primeira-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin: 10%;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  #espirito1 {
+    text-align: right;
+  }
+  
+  .container-livros {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .cards-citacoes {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  
+  }
+  
+  .citacoes{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  .card {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding-bottom: 1rem;
+    justify-content: center;
+    background-image: linear-gradient(#333, #333);
+    overflow: hidden;
+    border-radius: 16px;
+    color: white;
+    max-width: 300px;
+    transition: all .5s;
+    cursor: pointer;
   }
-
-  .mobile-menu .nav-item {
-    display: block;
-    padding-top: 1rem 2rem;
+  
+  #felicidade:hover{
+    background-image: linear-gradient(#4B0082,#E6E6FA);
   }
-
-  .mobile-menu .login-button button {
-    width: 100%;
+  #Recomeço:hover{
+    background-image: linear-gradient(#FFC300, #808080);
   }
-  .primeira-section {
-    margin: 5vh 0vh 0vh 10vh;
+  #Escolhas:hover{
+    background-image: linear-gradient(#778899, #DCDCDC);
   }
-  .citacoes{
-    margin-top: 10px;
+  #Ressistir:hover{
+    background-image: linear-gradient(#708090, #708090);
+  }
+  #Perdoar:hover {
+    background-image: linear-gradient(#3CB371, #808080);
+  }
+  
+  .img-1 {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  
+    background-image: url(./assets/amor-1024x597.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+  
+    opacity: .8;
+    transition: all .5s;
   }
-  .open {
-    display: block;
+  
+  .img-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-image: url(./assets/recomecos.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+  
+    opacity: .8;
+    transition: all .5s;
   }
-}
+  
+  .img-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-image: url(./assets/download.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+  
+    opacity: .8;
+    transition: all .5s;
+  }
+  
+  .img-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-image: url(./assets/ressitir.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+  
+    opacity: .8;
+    transition: all .5s;
+  }
+  
+  .img-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-image: url(./assets/perdoar-facebook.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+  
+    opacity: .8;
+    transition: all .5s;
+  }
+  
+  .card:hover .img{
+    opacity: 1;
+    width: 440px;
+  }
+  
+  .img p {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: uppercases;
+  }
+  
+  .content {
+    padding:0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+    transform: translateY(30px);
+  }
+  
+  .card:hover .content {
+    padding: 20px;
+    height: 150px;
+    transform: translateY(0);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .7;
+  }
+  
+  .arrow {
+    padding: 15px;
+    font-size: 28px;
+    transform: rotate(-180deg);
+  }
+  
+  .card:hover .arrow{
+    transform: rotate(0);
+  }
+  
+  .infor {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .terceira-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10%;
+
+  }
+  
+  .div-pai {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+  }
+  
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+  
+    text-align: justify;
+    align-items: center;
+  }
+  
+  .card-obras{
+    margin-bottom: 40vh;
+  }
+  
+  .copy {
+    background-color: #2a252a;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+  #espirito1 {
+    width: 10vw;
+  }
+  
+  @media screen and (max-width: 730px) {
+    .navegacao-primaria {
+      padding: 1.5rem 4rem;
+    }
+  
+    .nav-item {
+      display: none;
+      /* display: none; quando estiver nessa resolucao nao ira aparecer os links de navegacao */
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+    }
+  
+    .mobile-menu-icon button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  
+    .mobile-menu .nav-item {
+      display: block;
+      padding-top: 1rem 2rem;
+    }
+  
+    .mobile-menu .login-button button {
+      width: 100%;
+    }
+    .primeira-section {
+      margin: 5vh 0vh 0vh 10vh;
+    }
+    .citacoes{
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .open {
+      display: block;
+    }
+  }
