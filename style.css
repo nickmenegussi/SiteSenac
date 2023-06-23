@@ -322,6 +322,10 @@
   #espirito1 {
     width: 10vw;
   }
+
+  .texto-obras {
+    max-width: 400px;
+  }
   
   @media screen and (max-width: 730px) {
     .navegacao-primaria {
